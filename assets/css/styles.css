@@ -4,9 +4,10 @@ body {
   text-align: center;
 }
 header {
-  background-image: url("./../images/bg.png");
+  background-color: black;
+  /*background-image: url("./../images/bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   height: 450px;
 }
 
@@ -15,6 +16,7 @@ h1 {
   font-weight: 600;
   color: #fff;
   padding-top: 100px;
+  margin: 0;
 }
 
 .sub-main-title {
@@ -22,6 +24,7 @@ h1 {
   color: #fff;
   padding: 17.6px;
   white-space: pre-wrap;
+  margin: 0;
 }
 
 .read-more-link {
@@ -36,18 +39,27 @@ h1 {
 .section-under-header {
   background-color: #eaeaea;
   padding-bottom: 35.2px;
+  text-align: center;
 }
 
 .title-section {
   font-size: 26.4px;
   color: #333333;
   padding: 26.4px;
+  margin: 0px;
 }
 
 p {
   font-size: 17.6px;
   color: #333333;
   padding: 17.6px;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.info-section {
+  margin: 0;
+  height: 97px;
   white-space: pre-wrap;
 }
 
@@ -66,10 +78,12 @@ p {
   object-fit: cover;
   object-position: center;
 }
+
 .title-article {
   font-size: 21px;
   color: #333333;
   padding: 21px;
+  margin: 0px;
 }
 
 .section-under-articles {
@@ -93,7 +107,10 @@ p {
 }
 
 .title-section-bottom {
+  font-size: 26.4px;
   color: #ffffff;
+  padding: 26.4px;
+  margin: 0;
 }
 
 .section-bottom-info {
