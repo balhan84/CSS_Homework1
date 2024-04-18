@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <header>
-      <h1>Welcome to Acme Web Solutions</h1>
-      <p class="sub-main-title">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum
-        error earum soluta voluptatum nisi laboriosam eos saepe asperiores
-        dolorum.
-      </p>
-      <a class="read-more-link" href="#">Read More</a>
+      <div class="content-header">
+        <h1>Welcome to Acme Web Solutions</h1>
+        <p class="sub-main-title">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum
+          error earum soluta voluptatum nisi laboriosam eos saepe asperiores
+          dolorum.
+        </p>
+        <a class="read-more-link" href="#">Read More</a>
+      </div>
     </header>
     <main>
       <section class="section-under-header">
@@ -27,43 +30,49 @@
           quia, natus quo?
         </p>
       </section>
-      <section class="section-with-articles">
-        <article class="article-in-section">
-          <img class="image-article" src="./assets/images/web.jpeg" alt="WEB" />
-          <h2 class="title-article">Web Development</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            culpa neque quo eum et quasi velit voluptatum cum maiores
-            exercitationem.
-          </p>
-        </article>
-        <article class="article-in-section">
-          <img
-            class="image-article"
-            src="./assets/images/mobile.jpeg"
-            alt="Mobile"
-          />
-          <h2 class="title-article">Mobile Applications</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            culpa neque quo eum et quasi velit voluptatum cum maiores
-            exercitationem.
-          </p>
-        </article>
-        <article class="article-in-section">
-          <img
-            class="image-article"
-            src="./assets/images/tech.jpeg"
-            alt="Tech"
-          />
-          <h2 class="title-article">Tech Marketing</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            culpa neque quo eum et quasi velit voluptatum cum maiores
-            exercitationem.
-          </p>
-        </article>
-      </section>
+      <div class="content-articles">
+        <section class="section-with-articles">
+          <article class="article-in-section">
+            <img
+              class="image-article"
+              src="./assets/images/web.jpeg"
+              alt="WEB"
+            />
+            <h2 class="title-article">Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </article>
+          <article class="article-in-section">
+            <img
+              class="image-article"
+              src="./assets/images/mobile.jpeg"
+              alt="Mobile"
+            />
+            <h2 class="title-article">Mobile Applications</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </article>
+          <article class="article-in-section">
+            <img
+              class="image-article"
+              src="./assets/images/tech.jpeg"
+              alt="Tech"
+            />
+            <h2 class="title-article">Tech Marketing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </article>
+        </section>
+      </div>
       <section class="section-under-articles">
         <h2 class="title-section">We handle all of your digital needs</h2>
         <p>
@@ -72,23 +81,25 @@
           explicabo.
         </p>
       </section>
-      <section class="section-bottom1">
-        <h2 class="title-section-bottom">Contact Us</h2>
-        <p class="section-bottom-info">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
-          suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
-        </p>
-        <p class="mail-info">contact@acmewebsolutions.test</p>
-      </section>
-      <section class="section-bottom2">
-        <h2 class="title-section-bottom">About Our Company</h2>
-        <p class="section-bottom-info">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          earum porro deserunt, deleniti, quae facere repudiandae, officiis est
-          exercitationem nobis iusto doloremque! Soluta excepturi in aut
-          suscipit amet temporibus quo?
-        </p>
-      </section>
+      <div class="content--main-bottom">
+        <section class="section-bottom1">
+          <h2 class="title-section-bottom">Contact Us</h2>
+          <p class="section-bottom-info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
+            suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
+          </p>
+          <p class="mail-info">contact@acmewebsolutions.test</p>
+        </section>
+        <section class="section-bottom2">
+          <h2 class="title-section-bottom">About Our Company</h2>
+          <p class="section-bottom-info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            earum porro deserunt, deleniti, quae facere repudiandae, officiis
+            est exercitationem nobis iusto doloremque! Soluta excepturi in aut
+            suscipit amet temporibus quo?
+          </p>
+        </section>
+      </div>
     </main>
     <footer>
       <p class="footer-info1">Acme Web Solutions</p>
