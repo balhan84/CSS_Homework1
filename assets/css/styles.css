@@ -1,6 +1,12 @@
 * {
-  margin: 0;
+  /* margin: 0; */
   box-sizing: border-box;
+}
+
+html {
+  --text-white-color: #ffffff;
+  --background-white-color: #ffffff;
+  --text-grey-color: #333333;
 }
 
 body {
@@ -14,7 +20,7 @@ header {
   background-image: url("./../images/bg2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  min-height: 450px;
   font-size: 0;
 }
 
@@ -35,14 +41,14 @@ header {
 h1 {
   font-size: 35.2px;
   font-weight: 600;
-  color: #fff;
-  /* padding-top: 100px; */
+  color: var(--text-white-color);
+  padding: 0 35.2px;
 }
 
 .sub-main-title {
   font-size: 17.6px;
-  color: #fff;
-  padding: 17.6px 0px;
+  color: var(--text-white-color);
+  padding: 17.6px 17.6px;
   margin: 0 auto;
 }
 
@@ -50,7 +56,7 @@ h1 {
   font-size: 17.6px;
   font-weight: bold;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-white-color);
   border: 1px solid #333;
   padding: 17.6px 35.2px;
   margin: 8.8px 0px;
@@ -62,13 +68,13 @@ h1 {
 
 .title-section {
   font-size: 26.4px;
-  color: #333333;
+  color: var(--text-grey-color);
   padding: 26.4px;
 }
 
 p {
   font-size: 17.6px;
-  color: #333333;
+  color: var(--text-grey-color);
   padding: 17.6px;
 }
 
@@ -96,26 +102,25 @@ p {
 }
 
 .article-in-section {
-  background-color: #fff;
+  background-color: var(--background-white-color);
   margin-bottom: 10px;
   width: 33.333%;
 }
 
 .image-article {
-  width: 273px;
-  height: 181px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
 .title-article {
   font-size: 21px;
-  color: #333333;
+  color: var(--text-grey-color);
   padding: 21px;
 }
 
 .section-under-articles {
-  background-color: #ffffff;
+  background-color: var(--background-white-color);
   padding: 35.2px;
 }
 
@@ -123,23 +128,24 @@ p {
   display: flex;
 }
 
+.section-bottom1,
+.section-bottom2 {
+  padding: 35.2px;
+  color: var(--text-white-color);
+  width: 50%;
+}
+
 .section-bottom1 {
   background-color: blue;
-  padding: 35.2px;
-  color: #ffffff;
-  width: 50%;
 }
 
 .section-bottom2 {
   background-color: #333;
-  padding: 35.2px;
-  color: #ffffff;
-  width: 50%;
 }
 
 .title-section-bottom {
   font-size: 26.4px;
-  color: #ffffff;
+  color: var(--text-white-color);
   padding: 26.4px;
 }
 
@@ -153,20 +159,13 @@ p {
 
 footer {
   display: flex;
-  color: #ffffff;
+  color: var(--text-white-color);
   padding: 35.2px;
   background-color: black;
-  /* height: 97px; */
 }
 
-.footer-info1 {
-  color: #ffffff;
-  padding: 0px;
-  width: 50%;
-}
-
-.footer-info2 {
-  color: #ffffff;
+.footer-info {
+  color: var(--text-white-color);
   padding: 0px;
   width: 50%;
 }
